@@ -12,10 +12,20 @@
         html{
             height:100%;
         }
+        @-webkit-keyframes myfirst /* Safari and Chrome */
+        {
+            from {opacity: 0.3;}
+            to {opacity: 1;}
+        }
+
+        h1,p{
+            animation: myfirst 1s  infinite;
+
+        }
     </style>
 </head>
 <body>
-    <h1>静夜思</h1>
+    <h1 >静夜思</h1>
     <p>床前明月光</p>
     <p>疑是地上霜</p>
     <p>举头望明月</p>
