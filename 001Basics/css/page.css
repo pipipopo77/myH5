@@ -12,22 +12,37 @@ div{
     position: absolute;
     padding-top:20%;
 }
+#s{
+    font-size: 50px;
+    display:block;
+    animation:five 6s infinite;
+
+}
 #a{
     background-color: #aaaa00;
     animation: one 6s infinite ;
 }
 #b{
     background-color: greenyellow;
-    animation: two 6s infinite
+    animation: two 6s infinite;
 }
 #c{
-    background-color: #cc0000;
-    animation: three 6s infinite
+   background-image: url("../imags/13.jpg");
+    background-size:  100% 100%;
+    animation: three 6s infinite;
+
 }
 #d{
     background-color:#ffffff;
     color: #000;
     animation: four 6s infinite
+}
+@keyframes five {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 0}s
+    100%{opacity: 1}
 }
 @keyframes one {
     0%{opacity: 0}
